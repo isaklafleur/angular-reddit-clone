@@ -11,7 +11,7 @@ export class AppComponent {
   constructor() {
     this.articles = [
       new Article("Angular 5", "http://www.angular.io", 5),
-      new Article("React 16", "http://facebook.com", 1),
+      new Article("React 16", "https://github.com/facebook/react", 1),
     ];
   }
   addArticle(
