@@ -39,6 +39,11 @@ form.form:after {
 
 .ui.grid.posts {
   margin-top: 2em;
+  padding: 10px;
+}
+
+ui.column.grid {
+  width: 30% !important;
 }
 
 .meta {
