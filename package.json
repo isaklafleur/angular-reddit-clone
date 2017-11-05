@@ -6,7 +6,7 @@
     "ng": "ng",
     "start": "ng serve --aot",
     "gh-pages":
-      "ng build --prod --base-href /angular-reddit-clone && git add . && git commit -m 'update dist folder' && git push origin master && git subtree push --prefix dist origin gh-pages",
+      "ng build --prod --base-href /angular-reddit-clone/ && git add . && git commit -m 'update dist folder' && git push origin master && git subtree push --prefix dist origin gh-pages",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
