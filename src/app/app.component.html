@@ -9,11 +9,9 @@
             <label for="link">Link: </label>
             <input #newLink type="text" name="link">
         </div>
-        <button type="button" (click)="addArticle(newTitle, newLink)" class="ui positive right floated button">Submit Link</button>
+        <button type="button" (click)="addArticle(newTitle, newLink, 0)" class="ui positive right floated button">Submit Link</button>
     </form>
     <div class="ui grid posts">
-        <app-article>
-
-        </app-article>
+        <app-article *ngFor="let myArticle of sortedArticles()" [article]="myArticle"></app-article>
     </div>
 </div>
